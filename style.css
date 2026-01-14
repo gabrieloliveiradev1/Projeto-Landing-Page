@@ -1,1 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root{
+  font-family: "Open Sans", sans-serif;
+}
+
+body{
+  background-color: #F5F4F0;
+  color: #333333;
+}
+
+#page {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 24px;
+}
+
+.divider {
+   width: 100%;
+   height: 1px;
+   margin: 36px 0;
+   background-color: #d9d9d9;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 28px;
+  margin-bottom: 24px;
+  height: auto;
+}
+
+#img1 {
+  height: 660px;
+  object-fit: cover;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h1,h2,h3 {
+  font-family: "Alice", serif;
+  color: #1B1B1B;
+}
+
+p{
+  font-size: 16px;
+  color: #333333;
+}
+
+.texto{
+  margin-bottom: 24px;
+}
+
+.italico {
+  font-style: italic;
+}
+
+span {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #E1624F;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+ul{
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+.azul { color: #0C51A7; }
+
+.laranja {color: #E95E10; }
+
+.rosa{ color: #E5245E; }
+
+.roxo{ color: #591B98; }
+
+footer{
+  text-align: center;
+  padding: 40px 0;
+}
+.footer-texto {
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+.footer-autor {
+  font-size: 14px;
+  color: #000000;
+}
